@@ -1,1 +1,1 @@
-# LinaKali
+# Debian Support
