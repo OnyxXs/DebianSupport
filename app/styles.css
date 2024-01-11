@@ -9,10 +9,15 @@ body {
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #3498db, #2c3e50);
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 36px;
 }
 
 .container {
@@ -34,7 +39,7 @@ li {
     box-sizing: border-box;
     width: 200px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #fff;
@@ -43,7 +48,7 @@ li {
 
 li:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -54,7 +59,28 @@ img {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 20px;
+    background: linear-gradient(to right, #3498db, #2c3e50);
     color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.footer-text:hover {
+    color: #f39c12;
+    transition: color 0.3s;
+}
+
+.film-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.film-list a:hover {
+    text-decoration: underline;
 }
